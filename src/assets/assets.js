@@ -77,7 +77,8 @@ import trophy from './trophy.png'
 import quality from './quality.png'
 import savenature from './savenature.png'
 import suryaowner from './suryaowner.png'
-import suryaa from './suryaa.mp4'
+import suryaaa from './suryaaa.mp4'
+import instagram from './instagram.png'
 
 export const assets = {
     
@@ -112,7 +113,8 @@ export const assets = {
     quality,
     savenature,
     suryaowner,
-    suryaa
+    suryaaa,
+    instagram
 }
 
 export const menu_list = [

@@ -1,15 +1,12 @@
 import React from "react";
 import "./Marketing.css";
+import { assets } from "../../assets/assets";
 
 const Marketing = () => {
   return (
     <div className="marketing-page">
       <h1>📢 Restaurant Marketing Strategies</h1>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Restaurant_promotion.jpg"
-        alt="Restaurant Marketing"
-        className="marketing-image"
-      />
+      
 
       <p>
         To make <strong>Surya_Dakshin Restaurant</strong> a favorite breakfast spot,
@@ -17,7 +14,8 @@ const Marketing = () => {
         the city. Our goal is to connect taste with trust — because great food
         deserves great attention!
       </p>
-
+      <br/>
+      <br/>
       <h2>💡 Types of Marketing We Perform</h2>
       <ul>
         <li>
@@ -45,7 +43,7 @@ const Marketing = () => {
       <h2>📸 Follow Us on Instagram</h2>
       <div className="insta-section">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+          src={assets.instagram}
           alt="Instagram Logo"
           className="insta-logo"
         />
