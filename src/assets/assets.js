@@ -3,20 +3,12 @@ import basket_icon from './basket_icon.png'
 import slogo from './slogo.png'
 
 
-import header_img from './header_img.png'
+
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
-import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
-import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
+
 
 import f1 from './f1.png'
-import f2 from './f2.png'
-import f3 from './f3.png'
+
 import f4 from './f4.png'
 import f5 from './f5.png'
 import f6 from './f6.png'
@@ -29,23 +21,11 @@ import f12 from './f12.png'
 import f13 from './f13.png'
 import f14 from './f14.png'
 import f15 from './f15.png'
-import f16 from './f16.png'
-import f17 from './f17.png'
-import f18 from './f18.png'
+
 import f19 from './f19.png'
-import f20 from './f20.png'
-import f21 from './f21.png'
-import f22 from './f22.png'
-import f23 from './f23.png'
-import f24 from './f24.png'
+
 import f25 from './f25.png'
-import f26 from './f26.png'
-import food_27 from './food_27.png'
-import food_28 from './food_28.png'
-import food_29 from './food_29.png'
-import food_30 from './food_30.png'
-import food_31 from './food_31.png'
-import food_32 from './food_32.png'
+
 
 import scholle from './scholle.png'
 import sdosa from './sdosa.png'
@@ -83,7 +63,7 @@ export const assets = {
     
     slogo,
     basket_icon,
-    header_img,
+    
     search_icon,
     rating_starts,
     add_icon_green,
