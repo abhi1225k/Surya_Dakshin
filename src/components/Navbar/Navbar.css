@@ -52,6 +52,32 @@
     top: -8px;
     right: -8px;
 }
+.navbar-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  z-index: 999;
+}
+
+.dropdown-content a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
 
 @media (max-width:1050px){
     .navbar .slogo{
@@ -95,4 +121,106 @@
     .navbar-menu{
         display: none;
     }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar-dropdown {
+    position: relative;
+  }
+
+  .navbar-dropdown a {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0;
+  }
+
+  .dropdown-content a {
+    padding: 6px 12px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .dropdown-content a:hover {
+    background: #f4f4f4;
+  }
+}
+
+
+/* Hide mobile dropdown in desktop */
+.mobile-services {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none; /* hide full menu on mobile */
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mobile-services {
+    display: block;
+    position: relative;
+  }
+
+  .mobile-services-btn {
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .mobile-dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
+
+  .mobile-dropdown a {
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+
+  .mobile-dropdown a:hover {
+    background-color: #f4f4f4;
+  }
 }

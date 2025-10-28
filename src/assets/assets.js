@@ -73,6 +73,11 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import trophy from './trophy.png'
+import quality from './quality.png'
+import savenature from './savenature.png'
+import suryaowner from './suryaowner.png'
+import suryaa from './suryaa.mp4'
 
 export const assets = {
     
@@ -102,7 +107,12 @@ export const assets = {
     spoha,
     ssamosa,
     supma,
-    suttappa
+    suttappa,
+    trophy,
+    quality,
+    savenature,
+    suryaowner,
+    suryaa
 }
 
 export const menu_list = [
@@ -140,56 +150,13 @@ export const menu_list = [
     }]
 
 export const food_list = [
-    {
-        _id: "1",
-        name: "cholle ",
-        image: f4,
-        price: 120,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "cholle"
-    },
-    {
-        _id: "2",
-        name: "cholle",
-        image: f5,
-        price: 100,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "cholle"
-    }, {
-        _id: "3",
-        name: "cholle",
-        image: f6,
-        price: 120,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "cholle"
-    }, {
+     {
         _id: "4",
         name: "cholle",
         image: f4,
         price: 120,
         description: "Discover magic in every meal, made with love and freshness.",
         category: "cholle"
-    }, {
-        _id: "5",
-        name: " idli",
-        image: f1,
-        price: 40,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
-    }, {
-        _id: "6",
-        name: "idli",
-        image: f3,
-        price: 40,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
-    }, {
-        _id: "7",
-        name: " idli",
-        image: f2,
-        price: 40,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
     }, {
         _id: "8",
         name: "idli ",
@@ -198,49 +165,12 @@ export const food_list = [
         description: "Discover magic in every meal, made with love and freshness.",
         category: "idli"
     }, {
-        _id: "9",
-        name: "lassi",
-        image: f9,
-        price: 30,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "lassi"
-    }, {
-        _id: "10",
-        name: "lassi",
-        image: f10,
-        price: 30,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "lassi"
-    }, {
         _id: "11",
         name: "lassi",
         image: f8,
         price: 30,
         description: "Discover magic in every meal, made with love and freshness.",
         category: "lassi"
-    }, {
-        _id: "12",
-        name: "lassi",
-        image: f8,
-        price: 30,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "lassi"
-    },
-    {
-        _id: "13",
-        name: "poha",
-        image: f13,
-        price: 30,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "poha"
-    },
-    {
-        _id: "14",
-        name: "poha",
-        image: f12,
-        price: 30,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "poha"
     }, {
         _id: "15",
         name: "poha",
@@ -249,55 +179,13 @@ export const food_list = [
         description: "Discover magic in every meal, made with love and freshness.",
         category: "poha"
     }, {
-        _id: "16",
-        name: "samosa",
-        image: f20,
-        price: 25,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "samosa"
-    }, {
-        _id: "17",
-        name: "samosa",
-        image: f14,
-        price: 25,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "samosa"
-    }, {
-        _id: "18",
-        name: "samosa",
-        image: f15,
-        price: 25,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "samosa"
-    }, {
         _id: "19",
         name: "samosa",
         image: f15,
         price: 25,
         description: "Discover magic in every meal, made with love and freshness.",
         category: "samosa"
-    }, {
-        _id: "20",
-        name: " upma",
-        image: f19,
-        price: 40,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "upma"
-    }, {
-        _id: "21",
-        name: "upma  ",
-        image: f20,
-        price: 40,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "upma"
-    }, {
-        _id: "22",
-        name: "upma ",
-        image: f21,
-        price: 40,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "upma"
-    }, {
+    },{
         _id: "23",
         name: "upma  ",
         image: f19,
@@ -312,57 +200,7 @@ export const food_list = [
         description: "Discover magic in every meal, made with love and freshness.",
         category: "idli"
     },
-    {
-        _id: "25",
-        name: "poha ",
-        image: f12,
-        price: 60,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
-    },
-    {
-        _id: "26",
-        name: " poha",
-        image: f18,
-        price: 60,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
-    }, {
-        _id: "27",
-        name: " upma",
-        image: f20,
-        price: 60,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
-    }, {
-        _id: "28",
-        name: " upma",
-        image: f21,
-        price: 60,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "idli"
-    }, {
-        _id: "29",
-        name: "uttappa ",
-        image: f22,
-        price: 100,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "uttappa"
-    }, {
-        _id: "30",
-        name: "uttappa ",
-        image: f23,
-        price: 90,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "uttappa"
-    }, {
-        _id: "31",
-        name: "uttappa ",
-        image: f24,
-        price: 90,
-        description: "Discover magic in every meal, made with love and freshness.",
-        category: "uttappa"
-    }, {
+      {
         _id: "32",
         name: "uttappa ",
         image: f25,
